@@ -1,0 +1,31 @@
+:root {
+  --width: 700px;
+}
+#container {
+  width: var(--width);
+  background-color: lightcoral;
+  font-size: 98px;
+
+  position: relative;
+  /* border: 5px solid red; */
+}
+
+#centering_container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: calc(var(--width) - 10px);
+
+  text-align: center;
+  /* display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid blue; */
+}
+
+p {
+  font-size: 98px;
+  display: inline;
+  background-color: lightgreen;
+  color: red;
+}
